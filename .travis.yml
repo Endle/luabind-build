@@ -9,7 +9,7 @@ before_script:
   - sudo apt-get install -y mingw32-runtime mingw32-binutils mingw32
   - sudo apt-get install -y wine1.7
   - sudo apt-get install -y libboost-all-dev
-  - sudo apt-get install -y lua5.1
+  - sudo apt-get install -y lua5.1 liblua5.1-0-dev liblua5.1-0
 
 language: c
 compiler:
