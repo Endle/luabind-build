@@ -18,5 +18,5 @@ compiler:
 
 script:
     - cd code
-      #- git apply ../patches/*.txt
+    - git apply ../patches/*.txt
     - bjam toolset=gcc
