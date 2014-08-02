@@ -10,6 +10,7 @@ before_script:
   - sudo apt-get install -y wine1.7
   - sudo apt-get install -y libboost-all-dev
   - sudo apt-get install -y lua5.1 liblua5.1-0-dev liblua5.1-0
+  - sudo apt-get install -y liblua5.1*
 
 language: c
 compiler:
