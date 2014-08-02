@@ -8,8 +8,8 @@ before_script:
   - sudo apt-get update -qq
   - sudo apt-get install -y mingw32-runtime mingw32-binutils mingw32
   - sudo apt-get install -y wine1.7
-  - sudo apt-get install -y boost-build
-  - sudo apt-get install -y lua
+  - sudo apt-get install -y libboost-all-dev
+  - sudo apt-get install -y lua50 lua5.1 lua5.2
 
 language: c
 compiler:
