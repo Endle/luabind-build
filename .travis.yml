@@ -19,6 +19,5 @@ compiler:
 script:
     - cd code
     - git apply ../patches/*.txt
-    - bjam toolset=gcc
-    - cd test
-    - bjam
+    - sudo bjam toolset=gcc install
+    - bjam toolset=gcc test
