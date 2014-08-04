@@ -20,4 +20,4 @@ script:
     - cd code
     - git apply ../patches/*.txt
     - sudo bjam toolset=gcc install
-    - bjam toolset=gcc test
+    - sudo bjam toolset=gcc test
