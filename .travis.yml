@@ -20,3 +20,5 @@ script:
     - cd code
     - git apply ../patches/*.txt
     - bjam toolset=gcc
+    - cd test
+    - bjam
