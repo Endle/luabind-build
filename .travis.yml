@@ -19,5 +19,5 @@ compiler:
 script:
     - cd code
     - git apply ../patches/*.txt
-    - sudo bjam toolset=gcc install
-    - sudo bjam toolset=gcc test
+    - sudo bjam toolset=clang install
+    - sudo bjam toolset=clang test
